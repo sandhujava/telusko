@@ -1,3 +1,6 @@
+import factorial.factorialClaculation;
+import palindrome.Palindrome;
+
 import java.util.Scanner;
 
 public class Main {
@@ -38,6 +41,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int fact_num=scanner.nextInt();
         System.out.println(fc.factorial(fact_num));
+
+        System.out.println("This is to check palindrom.\n Enter the string");
+        String pal = scanner.next();
+        Palindrome palindrome = new Palindrome();
+        System.out.println(palindrome.checkPalindrome(pal));
 
     }
 }

@@ -1,3 +1,5 @@
+package factorial;
+
 public class factorialClaculation {
 
     public  int factorial(int number){
